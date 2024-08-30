@@ -2,6 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontSize: {
+      xxsm: "10px",
+      xsm: "12px",
+      sm: "14px",
+      md: "16px",
+      lg: "20px"
+    },
     extend: {
       spacing: {
         100: "567.2px",

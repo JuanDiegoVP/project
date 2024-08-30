@@ -65,11 +65,11 @@ const recentOrderData = [
 
 export const RecentOrders = () => {
   return (
-    <div className="bg-white px-4 pt-3 pb-4 rounded-sm border border-gray-200 flex-1">
+    <div className="bg-white px-4 pt-3 pb-4 rounded-sm border border-gray-200 flex-1 h-64 overflow-auto">
       <strong className="text-gray-700 font-medium">Recent Orders</strong>
       <div className="mt-3">
         <table className="w-full border border-x-slate-400">
-          <thead>
+          <thead className="">
             <tr>
               <th className="px-4 py-2 border border-slate-300">ID</th>
               <th className="px-4 py-2 border border-slate-300">Product ID</th>
